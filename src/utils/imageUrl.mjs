@@ -1,0 +1,1 @@
+export const imageUrl = name =>  "http://ddragon.leagueoflegends.com/cdn/12.16.1/img/champion/" + name + ".png";
