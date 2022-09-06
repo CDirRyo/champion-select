@@ -5,4 +5,27 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}/*# sourceMappingURL=basic.css.map */
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: 5px;
+        
+    }
+  
+    .scrollbar::-webkit-scrollbar-track {
+        height: 5px;
+      
+        background: none;
+    }
+  
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #ca8a04;
+        border-radius: 100px;
+        height: 5px;
+        
+
+    }
+
+  }
+/*# sourceMappingURL=basic.css.map */
