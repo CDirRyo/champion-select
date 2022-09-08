@@ -13,7 +13,7 @@ const Champions = (props) => {
                 <div  className="w-16 flex flex-col mr-9 items-center mb-2.5" key={index} id={champion}>
                     <div onClick={selectChampion} className="h-16 w-16 bg-cover hover:cursor-pointer" style={createStyle(champion, pickedChampions)} ></div>
                     <p onClick={selectChampion} className="text-xs mt-2 whitespace-nowrap text-gray-200/70" >{champion.split(/(?=[A-Z])/).join(" ")}</p>   
-                </div>                
+                    </div>                
             ))}
         </div>
   )
